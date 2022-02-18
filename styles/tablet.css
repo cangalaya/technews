@@ -1,0 +1,13 @@
+.news-cards {
+  grid-template-columns: repeat(auto-fill, 240px);
+  justify-content: center;
+  gap: 30px;
+}
+
+footer {
+  grid-template-columns: repeat(4, auto);
+  height: 50vh;
+}
+footer ul li {
+  margin: 14px 0;
+}

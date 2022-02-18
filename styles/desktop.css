@@ -1,0 +1,43 @@
+.news-cards {
+  grid-template-columns: repeat(auto-fill, 1fr);
+  justify-content: center;
+}
+.card {
+  min-width:auto;
+  max-width:auto;
+}
+
+footer ul li {
+  margin: 20px 0;
+}
+footer {
+  grid-template-columns: repeat(4, auto);
+  height: 60vh;
+}
+
+ul.nav-menu-right li:nth-child(2){
+  display: none;
+}
+.nav-main {
+  grid-template-columns: auto 1fr auto;
+}
+
+ul.nav-menu {
+  position:static;
+  transform:none;   /* escondemos, para luego mostrarlo con js */
+  transition: none;
+  background-color: transparent;
+  padding: 0;
+  height: auto;
+  width: auto;
+  
+}
+ul.nav-menu li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+footer {
+  padding: 0 120px;
+  padding-top: 60px;
+}
